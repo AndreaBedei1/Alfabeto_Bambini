@@ -1,0 +1,76 @@
+﻿<Window x:Class="alfabeto.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:alfabeto"
+        mc:Ignorable="d"
+        Title="Alfabeto" Height="769.35" Width="1139.314" Icon="img/icon.png" MinWidth="1155" MinHeight="850" MaxWidth="1155" MaxHeight="792">
+    <Grid Margin="0,0,0,-3">
+        <Button x:Name="buttonA" HorizontalAlignment="Left" Background="White" VerticalAlignment="Top" Width="100" Margin="40,41,0,0" Height="100" OpacityMask="White" Click="ClickA">
+            <Image x:Name="a" Source="img/a.jpg" Height="100" Width="100" OpacityMask="White"/>
+        </Button>
+        <Button x:Name="buttonB" HorizontalAlignment="Left" Background="White" VerticalAlignment="Top" Width="100" Margin="200,41,0,0" Height="100" OpacityMask="White" Click="ClickB">
+            <Image x:Name="b" Source="img/b.jpg" Height="100" Width="100" OpacityMask="White"/>
+        </Button>
+        <Button x:Name="buttonC" HorizontalAlignment="Left" Background="White" VerticalAlignment="Top" Width="100" Margin="360,41,0,0" Height="100" OpacityMask="White" Click="ClickC">
+            <Image x:Name="c" Source="img/c.jpg" Height="100" Width="100" OpacityMask="White"/>
+        </Button>
+        <Button x:Name="buttonD" HorizontalAlignment="Left" Background="White" VerticalAlignment="Top" Width="100" Margin="520,41,0,0" Height="100" OpacityMask="White" Click="ClickD">
+            <Image x:Name="d" Source="img/d.jpg" Height="100" Width="100" OpacityMask="White"/>
+        </Button>
+        <Button x:Name="buttonE" HorizontalAlignment="Left" Background="White" VerticalAlignment="Top" Width="100" Margin="680,41,0,0" Height="100" OpacityMask="White" Click="ClickE">
+            <Image x:Name="e" Source="img/e.jpg" Height="100" Width="100" OpacityMask="White"/>
+        </Button>
+        <Button x:Name="buttonF" HorizontalAlignment="Left" Background="White" VerticalAlignment="Top" Width="100" Margin="840,41,0,0" Height="100" OpacityMask="White" Click="ClickF">
+            <Image x:Name="f" Source="img/f.jpg" Height="100" Width="100" OpacityMask="White"/>
+        </Button>
+        <Button x:Name="buttonG" HorizontalAlignment="Left" Background="White"  VerticalAlignment="Top" Width="100" Margin="1000,41,0,0" Height="100" OpacityMask="White" Click="ClickG">
+            <Image x:Name="g" Source="img/g.jpg" Height="100" Width="100" OpacityMask="White"/>
+        </Button>
+        <Button x:Name="buttonH" HorizontalAlignment="Left" Background="White" VerticalAlignment="Top" Width="100" Margin="40,185,0,0" Height="100" OpacityMask="White" Click="ClickH">
+            <Image x:Name="h" Source="img/h.jpg" Height="100" Width="100" OpacityMask="White"/>
+        </Button>
+        <Button x:Name="buttonI" HorizontalAlignment="Left" Background="White"  VerticalAlignment="Top" Width="100" Margin="200,185,0,0" Height="100" OpacityMask="White" Click="ClickI">
+            <Image x:Name="i" Source="img/i.jpg" Height="100" Width="100" OpacityMask="White"/>
+        </Button>
+        <Button x:Name="buttonL" HorizontalAlignment="Left" Background="White"  VerticalAlignment="Top" Width="100" Margin="360,185,0,0" Height="100" OpacityMask="White" Click="ClickL">
+            <Image x:Name="l" Source="img/l.jpg" Height="100" Width="100" RenderTransformOrigin="0.442,2.096" OpacityMask="White"/>
+        </Button>
+        <Button x:Name="buttonM" HorizontalAlignment="Left" Background="White"  VerticalAlignment="Top" Width="100" Margin="520,185,0,0" Height="100" OpacityMask="White" Click="ClickM">
+            <Image x:Name="m" Source="img/m.jpg" Height="100" Width="100" RenderTransformOrigin="2.178,0.488" OpacityMask="White"/>
+        </Button>
+        <Button x:Name="buttonN" HorizontalAlignment="Left" Background="White" VerticalAlignment="Top" Width="100" Margin="680,185,0,0" Height="100" OpacityMask="White" Click="ClickN">
+            <Image x:Name="n" Source="img/n.jpg" Height="100" Width="100" RenderTransformOrigin="0.506,-1.912" OpacityMask="White"/>
+        </Button>
+        <Button x:Name="buttonO" HorizontalAlignment="Left" Background="White"  VerticalAlignment="Top" Width="100" Margin="840,185,0,0" Height="100" OpacityMask="White" Click="ClickO">
+            <Image x:Name="o" Source="img/o.jpg" Height="100" Width="100" OpacityMask="White"/>
+        </Button>
+        <Button x:Name="buttonP" HorizontalAlignment="Left" Background="White" VerticalAlignment="Top" Width="100" Margin="1000,185,0,0" Height="100" OpacityMask="White" Click="ClickP">
+            <Image x:Name="p" Source="img/p.jpg" Height="100" Width="100" OpacityMask="White"/>
+        </Button>
+        <Button x:Name="buttonQ" HorizontalAlignment="Left" Background="White"  VerticalAlignment="Top" Width="100" Margin="40,332,0,0" Height="100" OpacityMask="White" Click="ClickQ">
+            <Image x:Name="q" Source="img/q.jpg" Height="100" Width="100" OpacityMask="White"/>
+        </Button>
+        <Button x:Name="buttonR" HorizontalAlignment="Left" Background="White" VerticalAlignment="Top" Width="100" Margin="200,332,0,0" Height="100" OpacityMask="White" Click="ClickR">
+            <Image x:Name="r" Source="img/r.jpg" Height="100" Width="100" OpacityMask="White"/>
+        </Button>
+        <Button x:Name="buttonS" HorizontalAlignment="Left" Background="White" VerticalAlignment="Top" Width="100" Margin="360,332,0,0" Height="100" OpacityMask="White" Click="ClickS">
+            <Image x:Name="s" Source="img/s.jpg" Height="100" Width="100" OpacityMask="White"/>
+        </Button>
+        <Button x:Name="buttonT" HorizontalAlignment="Left" Background="White"  VerticalAlignment="Top" Width="100" Margin="520,332,0,0" Height="100" OpacityMask="White" Click="ClickT">
+            <Image x:Name="t" Source="img/t.jpg" Height="100" Width="100" OpacityMask="White"/>
+        </Button>
+        <Button x:Name="buttonU" HorizontalAlignment="Left" VerticalAlignment="Top" Background="White" Width="100" Margin="680,332,0,0" Height="100" OpacityMask="White" Click="ClickU">
+            <Image x:Name="u" Source="img/u.jpg" Height="100" Width="100"/>
+        </Button>
+        <Button x:Name="ButtonV" HorizontalAlignment="Left" Background="White" VerticalAlignment="Top" Width="100" Margin="840,332,0,0" Height="100" OpacityMask="White" Click="ClickV">
+            <Image x:Name="v" Source="img/v.jpg" Height="100" Width="100" OpacityMask="White"/>
+        </Button>
+        <Button x:Name="ButtonZ" HorizontalAlignment="Left" Background="White" VerticalAlignment="Top" Width="100" Margin="1000,332,0,0" Height="100" OpacityMask="White" Click="ClickZ">
+            <Image x:Name="z" Source="img/z.jpg" Height="100" Width="100" OpacityMask="White"/>
+        </Button>
+        <Image x:Name="img" Height="280" Width="420" Margin="360,464,367,78"/>
+        <Label x:Name="lblNome" Content="" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="426,760,0,0" Height="42" Width="274" FontSize="24" HorizontalContentAlignment="Center"/>
+    </Grid>
+</Window>
